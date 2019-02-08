@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "104416597348",
+    "firebase_url": "https://poc-ocrzodiac-1-2.firebaseio.com",
+    "project_id": "poc-ocrzodiac-1-2",
+    "storage_bucket": "poc-ocrzodiac-1-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104416597348:android:be59f65bb449b465",
+        "android_client_info": {
+          "package_name": "com.tiiinq.zodiac.ocr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104416597348-6sibm0ogch3egq8gbkv23e8k0gtlrouf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiiinq.zodiac.ocr",
+            "certificate_hash": "17e68e67a13c8b9907e5c8f1d043461f74a773e6"
+          }
+        },
+        {
+          "client_id": "104416597348-1n8h1nc1b2o8nksdsfu9q1hshu9g635b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO0o13nVztTaxowY6vmYKaLhBJFEpWv4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104416597348-1n8h1nc1b2o8nksdsfu9q1hshu9g635b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

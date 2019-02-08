@@ -1,4 +1,4 @@
-package com.tuts.prakash.simpleocr;
+package com.tiiinq.zodiac.ocr;
 
 import org.junit.Test;
 

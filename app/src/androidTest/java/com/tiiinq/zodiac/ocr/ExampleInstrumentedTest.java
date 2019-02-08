@@ -1,4 +1,4 @@
-package com.tuts.prakash.simpleocr;
+package com.tiiinq.zodiac.ocr;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

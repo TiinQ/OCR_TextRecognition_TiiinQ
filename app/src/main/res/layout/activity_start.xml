@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/backgroundimage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:fontFamily="sans-serif"
+            android:text="Id Keeper"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="-2dp" />
+
+        <Button
+            android:id="@+id/button_Go"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickBtnScan"
+            android:text="Commencez l'enregistrement des pièces"
+            android:textColor="@color/colorButton"
+            app:backgroundTint="@color/colorButtonBackground"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="402dp" />
+
+        <Button
+            android:id="@+id/button_Crud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GESTION PIECES"
+            android:onClick="onClickBtnHandle"
+            android:textColor="@color/colorButton"
+            app:backgroundTint="@color/colorButtonBackground"/>
+
+        <Button
+            android:id="@+id/button_Historic"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Historique"
+            android:onClick="onClickBtnHistoric"
+            android:textColor="@color/colorButton"
+            app:backgroundTint="@color/colorButtonBackground"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="453dp" />
+
+        <Button
+            android:id="@+id/button_Search"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recherche"
+            android:onClick="onClickBtnSearch"
+            android:textColor="@color/colorButton"
+            app:backgroundTint="@color/colorButtonBackground"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="453dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
